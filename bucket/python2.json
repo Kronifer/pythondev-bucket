@@ -1,0 +1,34 @@
+{
+  "description": "The legacy version of python.",
+  "homepage": "https://python.org",
+  "version": "2.7",
+  "license": "Python 2.7 License",
+  "architecture": {
+    "64bit": {
+      "url": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi",
+      "hash": "2fe86194bb4027be75b29852027f1a79",
+    },
+    "32bit": {
+      "url": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi",
+      "hash": "912428345b7e0428544ec4edcdf70286"
+    }
+  },
+  "extract_dir": "python2",
+      "bin": [
+        "python.exe",
+        "pythonw.exe",
+        [
+            "python.exe",
+            "python2"
+        ],
+        "Lib\\idlelib\\idle.bat",
+        [
+            "Lib\\idlelib\\idle.bat",
+            "idle3"
+        ]
+    ],
+    "env_add_path": [
+        "Scripts",
+        "."
+    ]
+}
