@@ -24,7 +24,7 @@
         "Lib\\idlelib\\idle.bat",
         [
             "Lib\\idlelib\\idle.bat",
-            "idle3"
+            "idle2"
         ]
     ],
     "env_add_path": [
